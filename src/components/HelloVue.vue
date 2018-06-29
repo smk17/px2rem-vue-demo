@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>HelloWorld to Your Vue.js App</h1>
+    <h1>HelloVue to Your Vue.js App</h1>
     <p>
       For guide and recipes on how to configure / customize this project,<br>
       check out the
