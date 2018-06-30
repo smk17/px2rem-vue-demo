@@ -9,13 +9,7 @@
   </div>
 </template>
 
-<script>
-
-
-export default {
-  name: 'app'
-}
-</script>
+<script src="./App.js"></script>
 
 <style lang="less">
 #app {
@@ -25,13 +19,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-  .icon{
-    width: 100px;
-    height: 100px;
-    .iconfont{
-      font-size: 32px;
-      color: white;
-    }
-  }
 }
 </style>
