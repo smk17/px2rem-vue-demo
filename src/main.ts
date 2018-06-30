@@ -8,7 +8,7 @@ const Hello = () => import('./components/Hello.vue')
 const HelloVue = () => import('./components/HelloVue.vue')
 const HelloWorld = () => import('./components/HelloWorld.vue')
 
-function resolveVue (promise) {
+function resolveVue (promise: () => Promise<any>) {
   return () => {
     console.log('加载中')
     console.dir(promise())
